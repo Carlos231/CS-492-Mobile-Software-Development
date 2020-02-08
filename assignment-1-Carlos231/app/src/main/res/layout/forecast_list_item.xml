@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--set background drawable created into linear layout-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/customborder">
+
+<!-- each forecast input view-->
+    <TextView
+        android:id="@+id/tv_forecast_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:clickable="true"
+        android:textSize="22sp" />
+
+</LinearLayout>
